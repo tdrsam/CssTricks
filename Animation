@@ -1,0 +1,44 @@
+// HTML
+
+<div class="base">
+	<section class="box">
+		<aside class="innerbox"></aside>
+	</section>
+</div>
+
+
+// CSS
+
+html{box-sizing: border-box;} 
+  *, *:before, *:after {box-sizing: inherit;}
+.base{
+	margin:0 auto;padding:0;border:0;
+	position:relative;
+	width:1000px;
+	height:650px;
+}
+.box{
+	position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+	background:seagreen;
+	width:25%;
+	height:25%;
+  }
+@keyframes rocknroll{
+	from { transform:rotateZ(0Deg) rotateY(0Deg); }
+	to { transform:rotateZ(1080Deg) rotateY(360Deg); }
+}
+.innerbox{
+	width:50%;
+	height:50%;
+	margin:0 auto;
+	background:dodgerblue;
+	position:absolute;
+  top:25%;
+  left:25%;
+	}
+.innerbox:active{
+	animation: rocknroll 1s linear infinite;
+  }
