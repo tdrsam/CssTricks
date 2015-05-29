@@ -39,6 +39,6 @@ html{box-sizing: border-box;}
   top:25%;
   left:25%;
 	}
-.innerbox:active{
-	animation: rocknroll 1s linear infinite;
+.innerbox:hover{
+	animation: rocknroll 333ms linear infinite;
   }
