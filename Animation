@@ -39,6 +39,6 @@ html{box-sizing: border-box;}
   top:25%;
   left:25%;
 	}
-.innerbox:hover{
+.innerbox:hover{  // Making this :not(:active) rather than hover will run the animations on page load
 	animation: rocknroll 333ms linear infinite;
   }
