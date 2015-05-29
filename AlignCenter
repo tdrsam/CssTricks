@@ -3,6 +3,9 @@
 
 .parent-div {
     position:relative;
+    margin:0 auto;
+    width:1000px;       // This can be changed but will probably need to be in px's
+	   height:650px;       // This can be changed but will probably need to be in px's
 }
 
 
@@ -12,4 +15,7 @@
     left:50%;
     -webkit-transform:translate(-50%, -50%);
     transform:translate(-50%, -50%);
+    background:green;
+	   width:25%;
+	   height:25%;
 }
