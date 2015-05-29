@@ -27,8 +27,8 @@ html{box-sizing: border-box;}
 	height:25%;
   }
 @keyframes rocknroll{
-	from { transform:rotateZ(0Deg) rotateY(0Deg); }
-	to { transform:rotateZ(1080Deg) rotateY(360Deg); }
+	from { transform:rotateZ(0Deg) rotateY(0Deg); }         // skew is good too
+	to { transform:rotateZ(1080Deg) rotateY(360Deg); }      // As are negative numbers
 }
 .innerbox{
 	width:50%;
