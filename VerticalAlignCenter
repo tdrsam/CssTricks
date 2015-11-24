@@ -11,8 +11,8 @@ FLEX METHOD
 
 
 
-POSITION METHOD (NOT AS GOOD)
 
+POSITION METHOD (NOT AS GOOD)
 
 .parent-div {
     position:relative;
