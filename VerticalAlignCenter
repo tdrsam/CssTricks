@@ -1,6 +1,19 @@
  /*Perfectly Align to Center*/
 
 
+FLEX METHOD
+
+#parentDiv{
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+
+
+
+POSITION METHOD (NOT AS GOOD)
+
+
 .parent-div {
     position:relative;
     margin:0 auto;
